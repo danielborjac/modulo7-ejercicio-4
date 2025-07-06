@@ -5,7 +5,7 @@ exports.getTasks = async (req, res) => {
     const tasks = await Task.findAll({ where: { UserId: req.userId } });
     res.json(tasks);
   } catch (err) {
-    res.status(500).json({ error: 'Error al obtener tareas' });
+    res.status(500).json({ error: 'Error al obtener tareas', details: err.message });
   }
 };
 
@@ -15,7 +15,7 @@ exports.createTask = async (req, res) => {
     const task = await Task.create({ title, UserId: req.userId });
     res.status(201).json(task);
   } catch (err) {
-    res.status(500).json({ error: 'Error al crear tarea' });
+    res.status(500).json({ error: 'Error al crear tarea', details: err.message });
   }
 };
 
@@ -33,7 +33,7 @@ exports.updateTask = async (req, res) => {
     await task.save();
     res.json(task);
   } catch (err) {
-    res.status(500).json({ error: 'Error al actualizar tarea' });
+    res.status(500).json({ error: 'Error al actualizar tarea', details: err.message });
   }
 };
 
@@ -47,6 +47,6 @@ exports.deleteTask = async (req, res) => {
     await task.destroy();
     res.json({ message: 'Tarea eliminada' });
   } catch (err) {
-    res.status(500).json({ error: 'Error al eliminar tarea' });
+    res.status(500).json({ error: 'Error al eliminar tarea', details: err.message });
   }
 };

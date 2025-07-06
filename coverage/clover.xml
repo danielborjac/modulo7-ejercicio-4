@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1750390354115" clover="3.2.0">
-  <project timestamp="1750390354115" name="All files">
+<coverage generated="1751779012402" clover="3.2.0">
+  <project timestamp="1751779012402" name="All files">
     <metrics statements="139" coveredstatements="128" conditionals="26" coveredconditionals="16" methods="14" coveredmethods="12" elements="179" coveredelements="156" complexity="0" loc="139" ncloc="139" packages="5" files="10" classes="10"/>
     <package name="modulo4-ejercicio">
       <metrics statements="21" coveredstatements="18" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="0"/>
@@ -143,18 +143,18 @@
         <line num="1" count="2" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
       </file>
       <file name="user.js" path="C:\Users\Daniel\OneDrive\Escritorio\Maestría\BACKEND NODE JS\tareas\modulo4-ejercicio\models\user.js">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="2" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
         <line num="18" count="2" type="stmt"/>
         <line num="19" count="2" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
       </file>
     </package>
     <package name="modulo4-ejercicio.routes">

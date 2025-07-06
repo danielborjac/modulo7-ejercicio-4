@@ -10,6 +10,8 @@ module.exports = (sequelize) => {
       type: DataTypes.BOOLEAN,
       defaultValue: false,
     },
+  }, {
+    tableName: 'tasks'  // 👈 Añadir esto para que use siempre el nombre exacto
   });
 
   return Task;
