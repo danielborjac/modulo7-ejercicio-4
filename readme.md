@@ -37,7 +37,7 @@ Si se desea revisar en producción:
 
 DB_NAME=secure_tasks
 DB_USER=root
-DB_PASS=root
+DB_PASSWORD=root
 DB_HOST=34.30.47.104
 JWT_SECRET=supersecreto123
 PORT=3000
