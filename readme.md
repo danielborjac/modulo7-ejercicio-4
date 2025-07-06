@@ -15,35 +15,9 @@ Este proyecto es una API REST desarrollada con Node.js y Express, que implementa
     *Test para testing
     *Estructura del proyecto
 
-modulo4-ejercicio/
-├── controllers/
-│   ├── authController.js
-│   └── taskController.js
-├── middlewares/
-│   ├── authMiddleware.js
-│   ├── sanitizeMiddleware.js
-│   └── validateMiddleware.js
-├── models/
-│   ├── index.js
-│   ├── task.js
-│   └── user.js
-├── routes/
-│   ├── authRoutes.js
-│   └── taskRoutes.js
-├── tests/
-│   └── auth.test.js
-├── .env
-├── Dockerfile
-├── docker-compose.yml
-├── server.js
-├── app.js
-├── package.json
-└── README.md
-
-
 # Clonar el repositorio
 
-git clone https://github.com/danielborjac/modulo4-ejercicio.git
+git clone https://github.com/danielborjac/modulo7-ejercicio-4
 cd modulo4-ejercicio
 
 # Variables de entorno
