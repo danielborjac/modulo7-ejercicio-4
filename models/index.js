@@ -10,7 +10,7 @@ const dbName =
 const sequelize = new Sequelize(
   dbName,
   process.env.DB_USER,
-  process.env.DB_PASS,
+  process.env.DB_PASSWORD,
   {
     host: process.env.DB_HOST,
     dialect: 'mysql',
